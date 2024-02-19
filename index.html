@@ -1,11 +1,211 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sedona</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="img/favicons/152Favicon.png" type="image/svg+xml">
+  <link rel="mask-icon" href="img/favicons/152Favicon.png" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/favicons/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/minify.css">
 </head>
-<body>
-    
+<body class="page-body">
+  <div class="main-wrapper">
+    <header class="page-header">
+      <nav class="main-nav">
+        <a class="logo" tabindex="0">
+          <img src="img/logo.png" width="140" height="72" alt="Логотип">
+        </a>
+        <ul>
+          <li class="elem-1">
+            <a class="link link-1" href="#">Информация</a>
+          </li>
+          <li class="elem-2">
+            <a class="link link-2" href="#">Фото и видео</a>
+          </li>
+          <li class="elem-3">
+            <a class="link link-4" href="#">Карта  штата</a>
+          </li>
+          <li class="elem-4">
+            <a class="link link-5" href="hotels.html">Гостиницы</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="visually-hidden">Cедона - Сайт поездки в Аризону</h1>
+      <div class="image-wrapper">
+        <img src="img/welcome.png" width="459" height="353" alt="Добро пожаловать на сайт Седона!">
+      </div>
+      <section class="advantages">
+        <h2 class="visually-hidden">Преимущества</h2>
+        <div class="title-wrapper">
+          <p class="title">
+            Седона <span class="advantages-word"> – небольшой</span> городок в Аризоне,
+            заслуживающий большего!
+          </p>
+          <p class="text">
+            Рассмотрим 5 причин, по которым Седона круче,
+            чем гранд каньон!
+          </p>
+        </div>
+        <ul class="list-advantages">
+          <li class="elem elem-image">
+            <div class="advantage-wrapper elem-grid">
+              <h3>Настоящий городок</h3>
+              <p>– №1 –</p>
+              <p>
+                Седона – не аттракцион для туристов,
+                  там течет своя жизнь
+              </p>
+            </div>
+             <img src="img/Layer-10.jpg" width="800" height="401" alt="Городок для туристов">
+          </li>
+          <li class="elem elem-icon elem-grid">
+            <h3>Жильё</h3>
+            <img src="img/icon-1.png" width="75" height="72" alt="">
+            <p>
+              Рекомендуем пожить в настоящем мотеле,
+               всё как в кино!
+            </p>
+          </li>
+          <li class="elem elem-icon elem-grid">
+            <h3>Еда</h3>
+            <img src="img/icon-2.png" width="74" height="70" alt="">
+            <p>
+              Всегда заказывайте фирменный бургер,
+               вы не разочаруетесь!
+            </p>
+          </li>
+          <li class="elem elem-icon elem-grid">
+            <h3>Сувениры</h3>
+            <img src="img/icon-3.png" width="64" height="76" alt="">
+            <p>
+              Не только китайского, но и местного
+               производства!
+            </p>
+          </li>
+          <li class="elem elem-image">
+            <div class="advantage-wrapper elem-grid">
+              <h3>Там есть мост дьявола</h3>
+              <p>— №2 —</p>
+              <p>
+                Да, по нему можно пройти! Если конечно
+                вы осмелитесь
+              </p>
+            </div>
+            <img src="img/Layer-5.jpg" width="800" height="400" alt="">
+          </li>
+          <li class="elem elem-second elem-grid">
+            <h3>Небольшая площадь</h3>
+            <p>— №3 —</p>
+            <p>
+              Все достопримечательности находятся
+               очень близко
+            </p>
+          </li>
+          <li class="elem elem-second elem-grid">
+            <h3>Красивая дорога</h3>
+            <p>— №4 —</p>
+            <p>
+              Ехать в Седону из Лас-Вегаса совсем
+               не скучно!
+            </p>
+          </li>
+          <li class="elem elem-second elem-grid">
+            <h3>Мало туристов</h3>
+            <p>— №5 —</p>
+            <p>
+              Большинство едет в гранд каньон и
+               толпится там
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <section class="info">
+      <div class="info-wrapper">
+        <h2>Заинтересовались?</h2>
+        <p>
+          Укажите предполагаемые даты поездки,<br>
+          и мы покажем вам лучшие предложения
+          гостиниц в седоне
+        </p>
+        <a class="btn btn-info" href="#">Поиск гостиницы в седоне</a>
+      </div>
+      <div class="modal modal-show">
+        <form action="#" method="post">
+          <div class="input-wrapper input-wrapper-1">
+            <label class="text-date text-date-1" for="date-to"><span class="modal-word">Дата</span> заезда:</label>
+            <input type="text" class="input-date" id="date-to" name="date-to" value="24 апреля 2017">
+            <button class="сalendar" type="button">Календарь</button>
+          </div>
+          <div class="input-wrapper input-wrapper-2">
+            <label class="text-date text-date-2" for="date-from"><span class="modal-word">Дата</span> выезда:</label>
+            <input type="text" class="input-date" id="date-from" name="date-from" value="4 июля 2017">
+            <button class="сalendar" type="button">Календарь</button>
+          </div>
+          <div class="input-wrapper input-wrapper-3">
+            <label class="text-number text-number-1" for="adults">Взрослые:</label>
+            <input class="input-number" type="text" id="adults" name="adults" value="2">
+            <button type="button" class="input-btn input-btn-1" aria-label="минус">
+              <span>-</span>
+            </button>
+            <button type="button" class="input-btn input-btn-2" aria-label="плюс">
+              <span>+</span>
+            </button>
+          </div>
+          <div class="input-wrapper input-wrapper-4">
+            <label class="text-number text-number-2" for="children">Дети:</label>
+            <input class="input-number" type="text" id="children" name="children" value="0">
+            <button type="button" class="input-btn input-btn-1" aria-label="минус">
+              <span>-</span>
+            </button>
+            <button type="button" class="input-btn input-btn-2" aria-label="плюс">
+              <span>+</span>
+            </button>
+          </div>
+          <button type="submit" class="btn btn-find">Найти</button>
+        </form>
+      </div>
+      <div class="map-wrapper">
+        <img src="img/map.png" width="1718" height="748" alt="Карта">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d84626.72320912292!2d134.94008029726558!3d48.48367140000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0JzRg9C30LXQuA!5e0!3m2!1sru!2sru!4v1708326912077!5m2!1sru!2sru" width="1200" height="593" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+    <footer class="page-footer">
+      <div class="address-wrapper">
+        <p>#visitsedona</p>
+        <a href="tel:+74956660266">Тел: +7(495) 666-02-66</a>
+      </div>
+      <section class="social">
+        <h2 class="visually-hidden">Социальные сети</h2>
+        <ul class="list-social">
+          <li class="elem">
+            <a class="btn-social" href="#">Твиттер</a>
+          </li>
+          <li class="elem">
+            <a class="btn-social" href="#">Фейсбук</a>
+          </li>
+          <li class="elem">
+            <a class="btn-social" href="#">Ютуб</a>
+          </li>
+        </ul>
+      </section>
+      <div class="logo-wrapper">
+        <a href="#">
+          <p>Website by</p>
+          <img class="image image-1" src="img/logo_name-1.png" width="115" height="41" alt="Логотип">
+          <img class="image image-2" src="img/logo_name-2.png" width="115" height="41" alt="Логотип">
+          <img class="image image-3" src="img/logo_name-3.png" width="115" height="41" alt="Логотип">
+        </a>
+      </div>
+    </footer>
+  </div>
+  <script src="js/minify.js"></script>
 </body>
 </html>
