@@ -938,7 +938,8 @@ display: flex;
 }
 
 
-.logo-wrapper a:hover > .image-1 {
+.logo-wrapper a:hover > .image-1,
+.logo-wrapper a:active > .image-1 {
   display: none;
  }
 
@@ -1131,6 +1132,7 @@ input[type=checkbox]:checked:disabled + label::after {
   line-height: 21px;
   color: var(--basic-white);
   text-transform: uppercase;
+  opacity: 1;
 }
 
 .filter-input input:-ms-input-placeholder {
